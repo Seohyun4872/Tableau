@@ -251,10 +251,10 @@ Latitude - 위도
 지민이를 도와주세요! (풀이를 찾아가는 과정을 기술해주세요)
 ```
 
-```
+
 <img width="2400" height="1423" alt="image" src="https://github.com/user-attachments/assets/071dd07e-8597-48b8-a2ea-1e23737ff337" />
 
-```
+
 
 
 
@@ -274,10 +274,10 @@ Latitude - 위도
 레퍼런스와 꼭 같지 않아도 자유롭게 표현하고, 그 과정을 기술해주세요.
 ```
 
-```
+
 <img width="2448" height="1431" alt="image" src="https://github.com/user-attachments/assets/3b2bc2c1-0f52-4713-9ebe-ffc812293a66" />
 
-```
+
 
 
 
