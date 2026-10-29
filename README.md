@@ -8,31 +8,31 @@ Study-group notes and visualization exercises covering Tableau data connections,
 
 These materials were maintained as part of DArt-B study activities. They combine personal learning notes, exercise responses, screenshots, and the study group's assignment templates. Assignment prompts and reference images are attributed to their sources and are not presented as independently designed projects.
 
-Detailed notes are in Korean. This repository documents learning progress: some exercises are unfinished, and the calculation/LOD/parameter files still contain substantial assignment scaffolding. It does not currently include a standalone dashboard project or a Tableau workbook.
+Detailed notes are in Korean. Blank answers and inaccurate explanations were supplemented on 2026-10-29. Existing screenshots are retained; added solutions are explanatory notes, not newly executed workbook results. A standalone dashboard or Tableau workbook is not included.
 
-## Topic guide
+## Weekly notes
 
-| Notes (Korean) | Current material |
-| --- | --- |
-| [데이터 연결과 결합](notes/01-data-connections.md) | Notes and practice; some exercises pending |
-| [차원·측정값과 기본 차트](notes/02-basic-charts.md) | Notes and practice; some exercises pending |
-| [응용 차트·필터·그룹](notes/03-charts-and-filters.md) | Notes and practice; some exercises pending |
-| [계산과 집합](notes/04-calculations-and-sets.md) | Assignment material; incomplete |
-| [LOD와 매개변수](notes/05-lod-and-parameters.md) | Assignment material; incomplete |
+| Week | Topics | History |
+| --- | --- | --- |
+| [Week 1](tableau_week1.md) | Data connections, relationships, joins, blending, unions, live/extract | [History](https://github.com/Seohyun4872/Tableau/commits/main/tableau_week1.md) |
+| [Week 2](Tableau_week2.md) | Dimensions/measures, bar/line/map charts, tables, treemaps | [History](https://github.com/Seohyun4872/Tableau/commits/main/Tableau_week2.md) |
+| [Week 3](Tableau_week3.md) | Dual axes, distributions, filters, groups | [History](https://github.com/Seohyun4872/Tableau/commits/main/Tableau_week3.md) |
+| [Week 4](tableau_week4.md) | Sets, calculated fields, aggregation, table calculations | [History](https://github.com/Seohyun4872/Tableau/commits/main/tableau_week4.md) |
+| [Week 5](tableau_Week5.md) | LOD expressions, parameters, formatting | [History](https://github.com/Seohyun4872/Tableau/commits/main/tableau_Week5.md) |
 
 ## Practice examples
 
-- [Basic charts](notes/02-basic-charts.md): chart configuration, percent-of-total calculations, and screenshots for country/category comparisons.
-- [Charts and filters](notes/03-charts-and-filters.md): donut charts, scatter plots, histograms, and notes on context filters for date-specific Top N analysis.
+- [Basic charts](Tableau_week2.md): chart configuration, percent-of-total calculations, and screenshots for country/category comparisons.
+- [Charts and filters](Tableau_week3.md): donut charts, scatter plots, histograms, and notes on context filters for date-specific Top N analysis.
 
 Screenshots in the notes include both personal practice captures and template reference images. They should be read with their surrounding exercise text.
 
-## Consolidation and original records
+## Study history
 
-Overlapping material from Tableau and Tableau_2026 is organized by topic. The fuller original basic-chart notes and 2026 chart/filter notes were used, with connection notes combined across both versions. Original files are preserved in [archive/original](archive/original) and [archive/2026](archive/2026). Existing weekly URLs remain as navigation pages.
+The original weekly filenames and paths are retained. Use each file's History to see earlier versions and dates; supplementary edits are recorded as later commits. [Week 1 history](https://github.com/Seohyun4872/Tableau/commits/main/tableau_week1.md) includes the original upload on 2026-01-24. The full historical content is available through Git history, without separate archive copies.
 
-Unresolved local attachment links from the original export are omitted from the curated notes; their original references remain in the archive. Existing externally hosted images remain linked.
+Material from Tableau_2026 is incorporated into the matching weeks. Its original commits remain in [that repository](https://github.com/Seohyun4872/Tableau_2026). Broken local export attachment links were removed; existing accessible image references are retained.
 
 ## Sources
 
-The assignment files reference [DArt-B Official](https://github.com/DArt-B-Official), Tableau learning videos, and the DArt-B Sample Store / Superstore practice datasets. Specific source links remain in the notes and original files. Learning-stage answers have not undergone a full technical review.
+The assignment files reference [DArt-B Official](https://github.com/DArt-B-Official), Tableau learning videos, and the DArt-B Sample Store / Superstore practice datasets. Specific source links remain in the notes and original files. Core explanations and supplementary answers were checked against the official Tableau documentation linked in the weekly notes. Dataset-dependent counts and screenshots were not re-executed.
