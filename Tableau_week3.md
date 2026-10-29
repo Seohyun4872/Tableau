@@ -2,8 +2,6 @@
 
 [English overview](README.md) · [한국어 소개](README.ko.md)
 
-DArt-B 스터디 학습 기록입니다. 기존 파일 경로와 과거 커밋을 유지하며, 빈 답변과 개념 설명은 2026-10-29에 보완했습니다. 기존 실습 캡처를 유지하되 새 워크북 실행 결과는 추가하지 않았습니다.
-
 # 학습 내용 정리
 
 ## 20강: 파이와 도넛차트
@@ -20,12 +18,9 @@ DArt-B 스터디 학습 기록입니다. 기존 파일 경로와 과거 커밋�
 <img width="1377" height="908" alt="image" src="https://github.com/user-attachments/assets/d95cfa75-3160-42d0-9b59-a3fdbacccb10" />
 <img width="661" height="523" alt="image" src="https://github.com/user-attachments/assets/95faf0f2-e817-4889-a58b-566d46ed77f4" />
 
-
 > **🧞‍♀️ 도넛차트를 생성하는 법을 포함해주세요.**
 
-
 ## 21강: 워드와 버블차트
-
 
 <버블차트>
 
@@ -40,15 +35,12 @@ DArt-B 스터디 학습 기록입니다. 기존 파일 경로와 과거 커밋�
 
 필드B: (선택) 색상
 
-
 ## 22강: 이중축과 결합축
-
 
 - 이중축: 2개의 축을 사용, 마크를 각각 사용 가능
 - 결합축: 합쳐서 사용
 <img width="1127" height="1163" alt="image" src="https://github.com/user-attachments/assets/1c72eb49-2907-46f5-b8e5-0c533586e62d" />
 <img width="1255" height="672" alt="image" src="https://github.com/user-attachments/assets/7d42c569-758c-4251-b9f5-b9661f4542f4" />
-
 
 ## 23강: 분산형 차트
 
@@ -76,7 +68,6 @@ DArt-B 스터디 학습 기록입니다. 기존 파일 경로와 과거 커밋�
 
 ## 24강: 히스토그램
 
-
 히스토그램은 수치형 측정값을 구간(bin)으로 나누고, 각 구간의 관측치 빈도를 보여준다. 범주별 합계나 크기를 비교하는 막대그래프와 목적이 다르다. 
 
 <히스토그램: 구간차원 생성>
@@ -96,7 +87,6 @@ DArt-B 스터디 학습 기록입니다. 기존 파일 경로와 과거 커밋�
 - 히스토그램: 연속형 측정값을 통해 수치데이터의 빈도를 표시하는 양적데이터이고, 막대와 막대 사이가 붙어있음  
 - 막대그래프: 불연속형 여러 범주 데이터를 비교하기 위해 사용되며, 막대와 막대 사이에 공백이 존재함.  
 
-
 ## 25강: 박스플롯
 
 중앙값·사분위수·분포 범위와 잠재적 이상치를 비교한다. 일반적인 1.5×IQR 수염 기준에서 바깥쪽 점은 이상치 후보이며 자동 삭제 대상은 아니다. 관측치 수준을 세부정보에 넣어 집계값 하나만 표시하지 않도록 확인한다.
@@ -115,7 +105,6 @@ DArt-B 스터디 학습 기록입니다. 기존 파일 경로와 과거 커밋�
 
 ## 27강: 간트차트
 
-
 시간 경과에 따른 기간을 시각화하는 데 사용
 
 <제품 범주별 배송기간 - 배송형태로 구분해 간트차트 시각화>
@@ -127,9 +116,7 @@ DArt-B 스터디 학습 기록입니다. 기존 파일 경로와 과거 커밋�
 <img width="1337" height="766" alt="image" src="https://github.com/user-attachments/assets/2556d662-3896-4188-82de-7e6bcdf08a66" />
 <img width="1169" height="732" alt="image" src="https://github.com/user-attachments/assets/b582279b-5bec-488c-ad73-c49f6e262508" />
 
-
 ## 28강: 필터
-
 
 <태블로의 필터 동작 순서>  
 1. 추출필터: 옆의 편집 버튼을 통해 추출 필터를 추가 가능   
@@ -140,7 +127,6 @@ DArt-B 스터디 학습 기록입니다. 기존 파일 경로와 과거 커밋�
 <img width="1312" height="797" alt="image" src="https://github.com/user-attachments/assets/cc2d8dd9-8fcb-42ed-adca-7d29bef10403" />
 
 ## 29강: 그룹
-
 
 수동으로 필드에 있는 항목들 묶기 가능   
 기존 데이터 원본에 없는 사용자 지정 그룹 필드 만들기 가능  
@@ -179,11 +165,9 @@ DArt-B 스터디 학습 기록입니다. 기존 파일 경로와 과거 커밋�
 오늘 배운 '컨텍스트 필터'의 내용을 고려하여 올바른 풀이 및 결과를 구해주세요.
 ```
 
-
 이렇게 되면, 코로나시기인 2021,2022에 해당하는 데이터 중 매출top10이 뽑히는 것이 아니라
 날짜 일반 필터가 Top N보다 먼저 적용된다고 보장할 수 없어, 원하는 기간 내 Top 10과 다른 결과가 나올 수 있다
 그렇기에 제대로 풀기 위해서는 코로나 시기 필터를 컨텍스트 필터로 설정해주어야 함. 
-
 
 ## 문제 2.
 
@@ -197,7 +181,6 @@ DArt-B 스터디 학습 기록입니다. 기존 파일 경로와 과거 커밋�
 
 ![alt text](https://raw.githubusercontent.com/DArt-B-Official/07_Tableau_Template/main/images/Week2-2.png)
 
-
 ```js
 해당 그룹별로 어떤 국가/지역이 주문을 많이 차지하는지를 보고자 합니다. 매출액보다는 주문량을 보고 싶으므로, 주문Id의 카운트로 계산하겠습니다.
 
@@ -206,12 +189,10 @@ DArt-B 스터디 학습 기록입니다. 기존 파일 경로와 과거 커밋�
 
 ![alt text](https://raw.githubusercontent.com/DArt-B-Official/07_Tableau_Template/main/images/Week2-3.png)
 
-
-
 ## 정리: 필터 적용 순서
 
 주요 흐름은 추출 필터 → 데이터 원본 필터 → 컨텍스트 필터 → FIXED LOD → 일반 차원 필터 → INCLUDE/EXCLUDE LOD → 측정값 필터 → 테이블 계산 필터다. Top N과 일반 차원 필터 사이에 원하는 우선순위가 필요하면 기간 등의 필터를 컨텍스트로 올린다. 연도별 Top 10인지 여러 해를 합한 Top 10인지도 먼저 정한다.
 
-박스플롯의 수염, 로그 축의 0·음수 처리, 색상 등은 실제 뷰 설정을 확인한다. 캡처는 기존 실습 기록이며 이번에 새로 실행한 결과는 아니다.
+박스플롯의 수염, 로그 축의 0·음수 처리, 색상 등은 실제 뷰 설정을 확인한다.
 
 참고: [Tableau 연산 순서](https://help.tableau.com/current/pro/desktop/en-us/order_of_operations.htm)
